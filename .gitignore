@@ -1,1 +1,9 @@
 /bin/
+/build/
+/out/
+/target/
+/logs/
+/.settings/
+.pydevproject
+.classpath
+.project
