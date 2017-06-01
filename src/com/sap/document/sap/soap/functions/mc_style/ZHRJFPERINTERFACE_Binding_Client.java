@@ -23,7 +23,7 @@ public final class ZHRJFPERINTERFACE_Binding_Client {
 	}
 
 	public static void main(String args[]) throws java.lang.Exception {
-		String imDate = "2017-03-28";
+		String imDate = "2017-05-17";
 		String imDays = "00";
 		if (args.length >= 1) {
 			imDate = args[0];

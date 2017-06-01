@@ -30,7 +30,7 @@ public class Service extends javax.xml.ws.Service {
         URL url = null;
         try {
 //        	url = new URL("file:/Users/hyy/wsdl/document.xml");
-			url = new File(PathUtil.resource + "document.xml").toURI().toURL();
+			url = new File(PathUtil.resource + "document520.xml").toURI().toURL();
         } catch (MalformedURLException e) {
             java.util.logging.Logger.getLogger(Service.class.getName())
                 .log(java.util.logging.Level.INFO, 

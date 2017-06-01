@@ -1,0 +1,6 @@
+# employee
+192.168.92.226 hcpdb02.evergrande.com hcpdb02
+192.168.92.225 hcpdb01.evergrande.com hcpdb01
+192.168.92.223 hcpapp02.evergrande.com hcpapp02
+192.168.92.222 hcpapp01.evergrande.com hcpapp01
+192.168.92.224 hcpappcluster.evergrande.com hcpappcluster
