@@ -18,7 +18,7 @@
 
 	<property name="output.dir" value="out" />
 	<property name="name" value="employee-extract" />
-	<property name="version" value="0.0.2" />
+	<property name="version" value="0.0.3" />
 	<property name="mainclass" value="com.sap.document.sap.soap.functions.mc_style.ZHRJFPERINTERFACE_Binding_Client" />
 
 	<!-- 第三方jar包的路径 -->

@@ -17,6 +17,9 @@ public class PathUtil {
 		if (_root.lastIndexOf("/bin") > -1) {
 			_root = _root.substring(0, _root.lastIndexOf("/bin"));
 		}
+		if (_root.lastIndexOf("/target/classes") > -1) {
+			_root = _root.substring(0, _root.lastIndexOf("/target/classes"));
+		}
 		File file = new File(_root);
 		_root = file.getAbsolutePath().replace("\\", "/") + "/";
 		_resource = _root + "resource/";

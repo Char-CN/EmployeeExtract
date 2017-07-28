@@ -62,19 +62,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ZhrsHtPernr }
-     * 
-     */
-    public ZhrsHtPernr createZhrsHtPernr() {
-        return new ZhrsHtPernr();
-    }
-
-    /**
      * Create an instance of {@link ZshrJfpernr }
      * 
      */
     public ZshrJfpernr createZshrJfpernr() {
         return new ZshrJfpernr();
+    }
+
+    /**
+     * Create an instance of {@link ZhrsHtPernr }
+     * 
+     */
+    public ZhrsHtPernr createZhrsHtPernr() {
+        return new ZhrsHtPernr();
     }
 
 }
