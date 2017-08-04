@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import org.blazer.util.DesUtil;
+import org.blazer.util.CustomDesUtil;
 
 
 /**
@@ -734,7 +734,7 @@ public class ZshrJfpernr {
 	public String showData() {
 		String s = pernr + "\t" + nachn + "\t" + orgeh + "\t" + orgtx + "\t" + zopath + "\t" + stat2 + "\t" + text1 + "\t" + werks + "\t" + name1 + "\t" + plans + "\t"
 				+ plstx + "\t" + ictyp + "\t" + ictxt + "\t" + icnum + "\t" + email + "\t" + zmtel + "\t" + zotel + "\t" + emsid + "\t" + scrzd + "\t" + sclzd + "\t"
-				+ zxrzd + "\t" + zxlzt + "\t" + zgznx + "\t" + zzzrq + "\t" + DesUtil.encrypt(zxzfd, "hellohyy" + pernr);
+				+ zxrzd + "\t" + zxlzt + "\t" + zgznx + "\t" + zzzrq + "\t" + CustomDesUtil.encrypt(zxzfd, icnum, pernr);
 		return s;
 	}
 

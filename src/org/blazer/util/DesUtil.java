@@ -109,9 +109,12 @@ public final class DesUtil {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("encrypt:" + DesUtil.encrypt("20万以上", "hellohyy00100015"));
-		System.out.println("encrypt:" + DesUtil.encrypt("20万以上", "hellohyy00100015"));
-		System.out.println("encrypt:" + DesUtil.encrypt("15-20万", "hellohyy00100017"));
+		System.out.println("encrypt:" + DesUtil.encrypt("20万以上", "" + "00100012"));
+		System.out.println("encrypt:" + DesUtil.encrypt("20万以上", "" + "00100013"));
+		System.out.println("encrypt:" + DesUtil.decrypt("1018103075fc5e402e365606c70eeb9e0c61b2dd18bf2eaf5619395d78049fe0fb0e30863ca561e9", "hellohyy" + "00100012"));
+		System.out.println("encrypt:" + DesUtil.decrypt("1018103075fc5e402e365606c70eeb9e0c61b2dd18bf2eaf5619395d78049fe0fb0e30863ca561e9", "hellohyy" + "00100013"));
+//		System.out.println("decrypt:" + DesUtil.decrypt("9e020b9c4e8f4da2150124985b6e52dcd7580a0638f7652c", "hellohyy00483433"));
+		System.out.println("decrypt:" + DesUtil.decrypt("cab451553ba001d6b06c29e7c69cd088e1722492fa551f67", "hellohyy" + "00528600"));
 	}
 
 }
